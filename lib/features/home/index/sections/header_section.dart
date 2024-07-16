@@ -24,21 +24,21 @@ class _HeaderSection extends StatelessWidget {
                   Text(
                     'D I S P L A Y  I N F O R M A S I',
                     style: TextStyle(
-                        fontSize: 25,
+                        fontSize: 20,
                         fontWeight: FontWeight.w700,
                         color: Color(0xff006316)),
                   ),
                   Text(
                     'KANTOR KEMENTERIAN AGAMA KOTA TANJUNGPINANG',
                     style: TextStyle(
-                      fontSize: 15,
+                      fontSize: 11,
                       fontWeight: FontWeight.w600,
                     ),
                   ),
                   Text(
                     'Jl. Daeng Kamboja KM.24 Kel. Kp. Bugis, Kec. Tanjungpinang Kota',
                     style: TextStyle(
-                      fontSize: 12,
+                      fontSize: 9,
                     ),
                   ),
                 ],

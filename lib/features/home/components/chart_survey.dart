@@ -33,8 +33,8 @@ class ChartSurvey extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              height: 120,
-              width: 120,
+              height: 90,
+              width: 90,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(8.0),
                 color: Colors.white,

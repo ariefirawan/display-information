@@ -16,23 +16,21 @@ class RightScreen extends StatelessWidget {
           const Divider(thickness: 2),
           const DaftarHadir(),
           const SizedBox(height: 5),
-          if (Responsive.isDesktop(context)) ...[
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                ChartSurvey(
-                  title: 'Indeks Persepsi Kepuasan Pelayanan',
-                  chartData: ChartData.dataSpkp,
-                ),
-                const SizedBox(width: 30),
-                ChartSurvey(
-                  title: 'Indeks Persepsi Anti Korupsi',
-                  chartData: ChartData.dataSpak,
-                  isSpak: true,
-                ),
-              ],
-            )
-          ],
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              ChartSurvey(
+                title: 'Indeks Persepsi Kepuasan Pelayanan',
+                chartData: ChartData.dataSpkp,
+              ),
+              const SizedBox(width: 30),
+              ChartSurvey(
+                title: 'Indeks Persepsi Anti Korupsi',
+                chartData: ChartData.dataSpak,
+                isSpak: true,
+              ),
+            ],
+          ),
           if (Responsive.isMobile(context)) ...[
             Column(
               children: [
