@@ -10,24 +10,15 @@ class _IklanSection extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          const Expanded(
-            child: Text(
-              'Ayo Daftarkan Produk Halal Anda',
-              style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                  color: AppColors.green),
-            ),
-          ),
           Image.asset(
             MainAssets.toa,
-            width: 225,
-            height: 190,
+            width: 125,
+            height: 90,
           ),
           Image.asset(
             MainAssets.halal,
-            width: 500,
-            height: 188,
+            width: 400,
+            height: 88,
           ),
         ],
       ),
